@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div className="liney"></div>
       <section className="forGrid ">
         <div className="img-container ">
-          <img src="img/teni3.jpeg" alt="" id="picture" />
+          <img src="img/teni.JPG" alt="" id="picture" />
         </div>
         <div className="details ">
           <p>

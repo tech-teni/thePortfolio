@@ -112,8 +112,8 @@ ul li {
 
 .welcome-section {
   display: flex;
-  flex-direction: row;
-  /* justify-content: space-around; */
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100%;
@@ -132,8 +132,31 @@ ul li {
 }
 
 /* careful , animation around here  */
+.welcome-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(
+      to bottom,
+      rgba(18, 17, 18, 0.3),
+      rgba(18, 17, 18, 0.3),
+      rgba(18, 17, 18, 0.3),
+      rgba(18, 17, 18, 0.3),
+      rgba(11, 11, 11, 0.3)
+    ),
+    url("../public/img/teni.JPG"); */
 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  width: 100vw;
+  /* height: 50vh; */
+}
 body h1 {
+  text-align: center;
   opacity: 1;
   animation: slideInFromRight 1s ease-in;
 }
@@ -462,7 +485,7 @@ span i {
 }
 
 /* Media  Query*/
-@media screen and (min-width: 450px) {
+-width: 450px) {
   .mobile-menu {
     display: none;
   }
@@ -517,7 +540,7 @@ span i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(
+    /* background: linear-gradient(
         to bottom,
         rgba(18, 17, 18, 0.3),
         rgba(18, 17, 18, 0.3),
@@ -525,7 +548,7 @@ span i {
         rgba(18, 17, 18, 0.3),
         rgba(11, 11, 11, 0.3)
       ),
-      url("../public/img/teni.JPG");
+      url("../public/img/teni.JPG"); */
 
     background-position: center;
     background-repeat: no-repeat;
@@ -536,7 +559,7 @@ span i {
     /* height: 50vh; */
   }
   .welcome-section {
-    margin-top: 60px;
+    /* margin-top: 60px; */
     height: 100vh;
     margin-bottom: 100px;
   }
@@ -551,7 +574,7 @@ span i {
   }
   #picture {
     margin-bottom: 15px;
-    height: 300px;
+    /* height: 300px; */
   }
   .trans1 p,
   .trans2 p,
@@ -592,7 +615,7 @@ span i {
 }
 #picture {
   /* height: 400px; */
-  /* width: 90%; */
+  width: 90%;
 
   border-radius: 15px;
   margin-top: 2rem;
@@ -669,7 +692,7 @@ i:hover {
 }
 @media screen and (min-width: 1024px) {
   #picture {
-    height: 650px;
+    /* height: 650px; */
     /* width: 90%; */
     margin-top: 2rem;
     max-width: 100%;
@@ -827,24 +850,23 @@ footer p {
     margin-left: 6px;
     font-weight: bold;
     color: #12a1b7;
-    width: 50%;
     text-align: left;
   }
 }
 @media screen and (max-width: 350px) {
-  .welcome-mobile h1 {
+  /* .welcome-mobile h1 {
     font-size: 30px;
     width: 30%;
     margin-top: 50px;
     margin-left: 10px;
-  }
+  } */
   .welcome-mobile {
-    justify-content: start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
   }
 }
 
-@media screen and (max-width: 425px) {
+/* @media screen and (max-width: 425px) {
   .welcome-mobile h1 {
     width: 30%;
     margin-top: 50px;
@@ -854,23 +876,23 @@ footer p {
     justify-content: start;
     align-items: flex-start;
   }
-}
+} */
 @media screen and (min-width: 600px) {
   #picture {
-    height: 700px;
+    /* height: 700px; */
   }
   .welcome-mobile {
     justify-content: start;
     align-items: flex-start;
   }
 }
-@media screen and (min-width: 380px) {
+/* @media screen and (min-width: 380px) {
   .welcome-mobile h1 {
     width: 45%;
     margin-top: 80px;
     margin-left: 10px;
   }
-}
+} */
 
 @media screen and (max-width: 380px) {
   .house p,
