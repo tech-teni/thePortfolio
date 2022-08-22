@@ -669,7 +669,7 @@ i:hover {
 }
 @media screen and (min-width: 1024px) {
   #picture {
-    height: 500px;
+    height: 650px;
     /* width: 90%; */
     margin-top: 2rem;
     max-width: 100%;
@@ -882,7 +882,13 @@ footer p {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 800px) {
+  #picture {
+    height: 650px;
+  }
+}
+
+@media screen and (min-width: 1030px) {
   #picture {
     height: 500px;
   }
