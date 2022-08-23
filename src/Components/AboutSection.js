@@ -29,7 +29,7 @@ const AboutSection = () => {
           <p>
             The main area of my expertise is{" "}
             <b className="bold">
-              HTML, CSS, Bootstrap, Javascript, React.js, MongoDB, Node.js
+              HTML, CSS, Bootstrap, Javascript, React.js, MongoDB, Node.js, PHP
             </b>{" "}
             with a knowlegde of a version control system{" "}
             <b className="bold">Github</b> building small and medium web apps
